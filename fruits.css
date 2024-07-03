@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+	font-family: "Karla", sans-serif;
+	font-weight: bolder;
+}
+
+body {
+	background-color: #91DDCF;
+}
+
+header img {
+	border-radius: 50%;
+	border: 5px solid rgb(0 200 200);
+	margin: 1rem;
+	margin-left: 4vw;
+	width: 13%;
+}
+
+header img:hover {
+	border:5px solid lightgreen;
+}
+
+header h1{
+	color: rgb(0 200 200);
+	font-size: 5vw;
+	margin-bottom: 0;
+}
+
+header h1:hover {
+	color: lightgreen;
+}
+
+
+header {
+	background-color: #55AD9B;
+	display: flex;
+	align-items: center;
+	border-radius: 1rem;
+	height: 25;
+}
+
+
+header h3 {
+	font-size: 2vw;
+	color:rgb(0 200 200);
+
+}
+
+header h3:hover {
+	color: lightgreen;
+}
+
+.heading {
+	margin-left: 2rem;
+}
+
+
+.head span {
+	color:"black";
+	font-weight:bold;
+}
+
+
+
+.fruit {
+	text-decoration: none;
+	color: black;
+	background-color: #55AD9B;
+	width:17%;
+	margin:1rem;
+	display: flex;
+	flex-direction: column;
+	border-radius: 1rem;
+	align-items: center;
+	box-shadow: 10px 10px 20px rgba(255,0,0,0.45);
+}
+
+.fruit img {
+	width:70%;
+	margin:1rem;
+	border-radius: 15%;
+}
+
+.head{
+	display: flex;
+	flex-wrap: wrap;
+}
